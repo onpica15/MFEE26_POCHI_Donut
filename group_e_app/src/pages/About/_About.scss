@@ -1,0 +1,168 @@
+.bingback {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bing-maxwidth {
+  max-width: 75%;
+}
+
+.bingText-16 {
+  font-size: 18px;
+  line-height: 2.5rem;
+  color: #616153;
+  letter-spacing: 0.25rem;
+}
+
+.bingH2 {
+  font-size: 48px;
+  color: #616153;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+
+.bingH4 {
+  font-size: 36px;
+  color: #616153;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+}
+
+.bingH5 {
+  font-size: 30px;
+  color: #616153;
+  letter-spacing: 0.5rem;
+}
+
+.bingH6 {
+  font-size: 20px;
+  color: #616153;
+}
+
+.bingimg3 {
+  bottom: 12%;
+  right: 0%;
+}
+
+.share img {
+  object-fit: cover;
+  padding: 4px;
+}
+
+.shareW-40 {
+  width: 40%;
+}
+
+.shareW-60 {
+  width: 60%;
+}
+
+.CSRNum1 {
+  font-size: 64px;
+  color: #616153;
+  letter-spacing: 1rem;
+}
+
+.CSRNum2 {
+  font-size: 58px;
+  color: #616153;
+  letter-spacing: 1rem;
+}
+
+.mapInfo ul {
+  padding-left: 0;
+}
+
+.bingSelect {
+  min-width: 4rem;
+  min-height: 4rem;
+  margin: 0 1rem;
+  position: relative;
+
+  input {
+    margin: 0 1rem;
+    position: absolute;
+    left: -0.5rem;
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    pointer-events: none;
+    border-radius: 50%;
+  }
+}
+.customSelect {
+  min-width: 5rem;
+  min-height: 5rem;
+  margin: 0 1rem;
+  position: relative;
+
+  input {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  img {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    z-index: 0;
+    // display: none;
+  }
+  p {
+    position: absolute;
+    left: 100px;
+  }
+}
+
+.bingTable {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+img.bingFlag1 {
+  padding: 16rem 3rem 0 3rem;
+}
+
+img.bingFlag2 {
+  padding: 8rem 3rem 0 0;
+}
+
+.bingPoniter {
+  cursor: pointer;
+}
+
+.swiper-button-next:after {
+  content: '' !important;
+}
+
+.swiper-button-prev:after {
+  content: '' !important;
+}
+
+.swiper-button-prev {
+  width: 75px !important;
+  height: 75px !important;
+  background: url(./img/catpawl1.png);
+  background-size: cover;
+  transition: 0.3s ease;
+}
+
+.swiper-button-next {
+  width: 75px !important;
+  height: 75px !important;
+  background: url(./img/catpawl.png);
+  background-size: cover;
+  transition: 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transform: scale(1.3);
+}

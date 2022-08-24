@@ -1,0 +1,16 @@
+.ProjectButton {
+  font-size: 1.25rem;
+  background-color: #616153;
+  border: 1px solid #616153;
+  border-radius: 25px;
+  padding: 0.65rem 3rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.ProjectButton:hover {
+  color: #616153;
+  background-color: #f5f5f5;
+  border: 1px solid #616153;
+}

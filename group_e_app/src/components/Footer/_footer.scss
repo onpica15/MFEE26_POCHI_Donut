@@ -1,0 +1,27 @@
+footer {
+  line-height: 2rem;
+  height: 300px;
+  background-color: #5a5a4c;
+  color: #ffffff;
+
+  .text-center{
+    img {
+      text-align: center;
+    }
+  }
+}
+footer .h300 {
+  height: 300px;
+}
+footer .icon li {
+  width: 4.25rem;
+  height: 4.25rem;
+  font-size: 1.75rem;
+  color: #5a5a4c;
+  background-color: #fff;
+  border-radius: 50%;
+}
+footer .footerp {
+  height: 40px;
+  background-color: #5a5a4c;
+}

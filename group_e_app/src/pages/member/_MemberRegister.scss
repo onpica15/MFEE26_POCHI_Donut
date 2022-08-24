@@ -1,0 +1,89 @@
+// * {
+//   outline: 1px red solid;
+// }
+.yu_header p {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 3rem;
+}
+.yu_regcard {
+  background-color: rgba(255, 255, 255, 0.702);
+  border-radius: 18px;
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  p {
+    margin: 3rem;
+  }
+  .yu_reg_link_p {
+    color: #f2a99b;
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+.reg_form {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .inputblock {
+    width: 30%;
+    margin-top: 3rem;
+    position: relative;
+
+    .reg_absolute {
+      position: absolute;
+      right: 0%;
+      bottom: 10%;
+      img {
+        width: 30%;
+      }
+    }
+  }
+
+
+  .reg_error {
+    color: #d01f1f;
+    margin: 0%;
+    text-align: left;
+    position: absolute;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+  }
+  input {
+    border-radius: 18px;
+    border: none;
+    background-color: #ebebeb;
+    width: 100%;
+    height: 34px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+  button {
+    border: none;
+    background-color: #616153;
+    color: white;
+    border-radius: 18px;
+    margin-top: 3rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+.yu_regCat {
+  width: 100%;
+  position: relative;
+  img {
+    width: 10%;
+    position: absolute;
+    top: -4.5rem;
+    left: 45%;
+  }
+}

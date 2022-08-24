@@ -1,0 +1,33 @@
+.yu_history_col_table{
+    border-radius: 18px;
+    overflow: hidden;
+    // border: 1px solid red;
+    //這裡加了important padding 0 蓋過col padding設定
+    padding: 0% !important;
+    margin: 5rem;
+    
+}
+.yu_history_table{
+    border-radius: 18px;
+    tbody{
+        color: #616153;
+        tr>td{
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    th{
+        height: 4rem;
+        text-align: center;
+        vertical-align: middle;
+        td{
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+}
+
+.yu_history_thead{
+    background-color:#616153;
+    color: white;
+}

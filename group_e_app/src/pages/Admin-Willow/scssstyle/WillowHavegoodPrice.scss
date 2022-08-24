@@ -1,0 +1,45 @@
+#willowhavegoodprice {
+  z-index: 999;
+  .willow_mar_sm {
+    margin-right: 1rem;
+  }
+  .willow_button {
+    border-radius: 19px;
+    background-color: #616153;
+    color: white;
+    font-size: 1.1rem;
+
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+  }
+  .willow_button:hover {
+    background-color: #ffffff;
+    color: #616153;
+  }
+  .willow_button2 {
+    border-radius: 19px;
+    background-color: #616153;
+    color: white;
+    font-size: 1rem;
+
+    margin-top: 2rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .willow_button2:hover {
+    background-color: #ebc27a7f;
+    color: #616153;
+  }
+  .willow_minh {
+    min-height: 80vh;
+  }
+  .willow_marleft{
+    margin-left:1rem ;
+  }
+  .willow_marbottom{
+    margin-bottom:2rem;
+  }
+  .willow_border{
+    border-left:2px solid  #616153;
+  }
+  .willow_hidden{display: none;}
+}

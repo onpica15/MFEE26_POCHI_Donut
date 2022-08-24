@@ -1,0 +1,57 @@
+.love-orderContainer{
+    width: 90%;
+    margin: auto;
+    .card{
+        width: 100%;
+    }
+}
+.loveyu-orderTitle{
+    font-size: 2rem;
+    color: #616153;
+}
+.love-shipInfoBox{
+    display: flex;
+    button{
+        margin-left: 20px;
+        margin-bottom: 13px;
+    }
+
+}
+
+.card{
+    .yu_inputblock {
+    width: 80%;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    
+    position: relative;
+  }
+  label{
+    margin-top: 1rem;
+  }
+  .creditCardBlock{
+        width: 40%;
+        text-align: left;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        margin: auto;
+        position: relative;
+      
+  }
+
+}
+.infoSelect{
+    border-radius: 50px;
+}
+.card-header{
+    b{
+        font-size: 1.3rem; 
+    }
+}
+.card-body{
+    p{
+        font-size: 1.3rem;
+    }
+}

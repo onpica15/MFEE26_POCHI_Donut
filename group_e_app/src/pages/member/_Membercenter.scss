@@ -1,0 +1,200 @@
+.yu_container{
+  /* background-color: #F5F5F5; */
+  color: #616153;
+}
+.yu_header{
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #616153;
+}
+.yu_bar_ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.yu_bar_nav{
+  margin-bottom: 3rem;
+}
+.yu_bar_nav a{
+  color: #AEAEAE;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.yu_bar_nav a:hover{
+  color: #616153;
+  text-decoration: none;
+}
+.yu_profile{
+  background-color: #ffff;
+  border-radius: 18px;
+  margin-bottom: 5rem;
+  padding: 3rem;   
+}
+.yu_profile_editing{
+  position: relative;
+}
+.yu_profile_form_group{
+  margin-top: 3rem;
+  position: relative;
+  input{
+      border-radius: 18px;
+  }
+}
+.yu_avatar{
+  border-radius: 18px;
+  text-align: center;
+}
+.yu_avatar img{
+  border-radius: 18px;
+  width: 100%;
+}
+
+.yu_member_title p{
+  text-align: center;
+  font-size: 24px;
+
+}
+.yu_profile label{
+  text-align: right;
+  font-weight: bolder;
+}
+.yu_profile input{
+  text-align: left;
+  border: none;
+  margin-left: 1rem;
+}
+.yu_profile .error{
+  color: #D01F1F;
+  position: absolute;
+  left: 12rem;
+  text-align: right;
+}
+.yu_avatar{
+  height: 25rem;
+  position: relative;
+}
+.yu_avatar_pic{
+  width:60%;
+  margin: auto;
+  padding-top: 4rem;
+  img{
+      width: 100%;
+      border-radius: 18px;
+  }
+}
+.yu_avatar_btn{
+  border: none;
+  background-color: #F2A99B;
+  color: white;
+  border-radius: 18px;
+  padding: .5rem 2rem;
+  position: absolute;
+  bottom: 0;
+  transition: 0.5s;
+}
+.yu_avatar_btn:hover{
+  color: #F2A99B;
+  background-color: white;
+  border: 1px solid #F2A99B;
+
+}
+.yu_profile-btn{
+  border: none;
+  background-color: #616153;
+  color: white;
+  border-radius: 18px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  padding: .5rem 2rem;
+  transition: 0.5s;
+}
+.yu_profile-btn:hover{
+  color: #616153;
+  background-color: #f5f5f5;
+  border: 1px solid #616153;
+}
+.yu_milestone{
+  justify-content: space-around;
+  margin-bottom: 5rem;
+ 
+}
+.yu_stone_figure{
+  width: 10vh;
+  margin: 1rem 1rem 0 0;
+}
+.yu_stone_figure img{
+  width: 100%;
+}
+.yu_milestone_text{
+  margin: 1rem 1rem 0 0rem;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+  
+}
+.stone{
+  transition: 1s;
+
+}
+.stone:hover{
+  margin-top: -3rem;
+}
+// .yu_flex{
+//     position: relative;
+// }
+
+
+@media (max-width: 767px) {
+  .yu_header {
+    h2 {
+      font-size: 3rem !important;
+    }
+  }
+  .yu_center {
+    display: flex;
+    flex-direction: column;
+    .yu_avatar {
+      height: 100%;
+      .yu_avatar_pic {
+        width: 100%;
+        margin: 0 0 5rem 0;
+        padding: 0;
+        img {
+          width: 100%;
+          border-radius: 18px;
+        }
+      }
+    }
+    .col-6{
+        width: 100% !important;
+        margin-top: 3rem !important;
+        .yu_member_title{
+            p{
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+        }
+    }
+  }
+  .stone{
+    padding: 10%;
+  
+  }
+  .yu_avatar_btn {
+    margin-top: 3rem;
+  }
+  .yu_profile-btn{
+    left: 25%;
+    bottom: -3rem;
+  }
+  .yu_profile{
+    padding: 5rem 3rem;
+  }
+
+}
+
+
+
+

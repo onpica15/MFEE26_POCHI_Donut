@@ -1,0 +1,38 @@
+nav {
+    background-color: none;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navContainer{
+padding: 20px 25px;
+}
+
+.nav-item{
+    margin-left: 20px;
+    i{
+        margin-right: 8px;
+    }
+}
+
+.yu_pointer{
+    cursor: pointer;
+    margin-left: .5rem;
+    
+}
+.cartTag{
+    // position: fixed;
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(154, 102, 102);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+

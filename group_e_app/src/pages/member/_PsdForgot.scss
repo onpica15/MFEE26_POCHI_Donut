@@ -1,0 +1,22 @@
+
+.yu-psdforgot-btn-div{
+    text-align: center;
+}
+// .psdcard-margin{
+//     margin: 18rem 0;
+// }
+.fadeout{
+    animation-name: animation; 
+    animation-duration: 2s;
+}
+
+@keyframes animation { 
+    from {
+        opacity: 1;
+    } 
+    to {
+        opacity: 0;
+    } 
+        } 
+
+

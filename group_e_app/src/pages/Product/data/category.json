@@ -1,0 +1,21 @@
+{
+    "type": "table",
+    "name": "category",
+    "database": "proj_midterm",
+    "data": 
+[
+{
+    "sid": "1",
+    "category_name": "波堤"
+},
+{
+    "sid": "2",
+    "category_name": "圓形甜甜圈"
+},
+{
+    "sid": "3",
+    "category_name": "歐菲香"
+}
+]
+
+}

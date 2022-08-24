@@ -1,0 +1,298 @@
+* {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.Mars-container {
+    margin-left: 178px;
+    margin-right: 178px;
+}
+
+.Mars-container>div.pt-2.pb-5 {
+    padding-bottom: 35px !important;
+}
+
+.Mars-img-wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Mars-visual {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    object-fit: cover;
+}
+
+.Mars-prod-filter-area {
+    display: flex;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.Mars-prod-filter {
+    width: 150px;
+    font-size: 24px;
+    align-items: center;
+    margin-right: 45px;
+    padding-left: 10px;
+    line-height: 60px;
+    transition: .5s ease-in-out;
+    color: #8D8D81;
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.Mars-prod-filter:hover {
+    border-bottom: 2px solid #616153;
+    color: #616153;
+}
+
+.Mars-product-slide {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1441px) {
+    .Mars-visual {
+        width: 75%;
+    }
+
+    .Mars-prod-filter-area {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .Mars-product-slide {
+        padding-left: calc((100% - 1065px)/2);
+    }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1279px)  {
+    .Mars-product-slide {
+        padding-left: calc((100% - 780px)/2);
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 969px) {
+    .Mars-product-slide {
+        padding-left: calc((100% - 520px)/2);
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1421px) {
+    .Mars-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Mars-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.Mars-prod-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 340px;
+    margin: 10px 30px;
+}
+
+.Mars-prod-wrap>div, .Mars-prod-wrap>span, .Mars-prod-wrap>button {
+    margin: auto;
+}
+
+.Mars-prod-imgwr {
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: none;
+    transition: 0.5s ease-in-out;
+}
+
+.Mars-prod-imgwr:hover {
+    box-shadow: 0 5px 25px 0 rgba(97, 97, 83, 0.502);
+    /* color #616153 的透明度 0.5 版本 */
+}
+
+.Mars-prod-img {
+    width: 295px;
+    height: 295px;
+}
+
+@media screen and (max-width: 1264px) {
+    .Mars-prod-imgwr {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .Mars-prod-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.Mars-prod-name {
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1264px) {
+    .Mars-prod-wrap>.Mars-prod-name {
+        max-width: 200px;
+        min-height: 91px;
+    }
+}
+
+.Mars-prod-price {
+    font-size: 16px;
+}
+
+/* ---商品內容頁--- */
+
+.Mars-cnt-container {
+    margin-left: 158px;
+    margin-right: 158px;
+}
+
+.Mars-cnt-main {
+    margin-bottom: 50px;
+}
+
+.Mars-cnt-imgwr {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mars-cnt-img {
+    width: 395px;
+    height: 363px;
+}
+
+.Mars-cnt-info {
+    min-width: 250px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.Mars-cnt-container .Mars-prod-name {
+    text-align: left;
+}
+
+.Mars-cnt-engnum {
+    font-size: 16px;
+}
+
+.Mars-cnt-desc {
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.Mars-button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Mars-cnt-nutriwr {
+    width: 100%;
+    height: 230px; /*暫定*/
+    background-color: #EEE;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Mars-cnt-nutrition {
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 26px 43px;
+}
+
+.Mars-nutri-p {
+    margin-bottom: 16px;
+}
+
+.Mars-allergy-flex>.Mars-nutri-p {
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.Mars-nutri-flex>.Mars-nutri-p {
+    margin-right: 50px;
+}
+
+.Mars-nutri-flex {
+    margin-bottom: 14px;
+}
+
+.Mars-nutri-flex>.Mars-nutri-p:last-child {
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+
+.Mars-allergy-flex>.Mars-nutri-p:last-child {
+    margin-right: 0;
+}
+
+.Mars-Button-Linkback {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Mars-prod-name.Mars-RecBig {
+    margin-top: 35px;
+}
+
+/* ---推薦卡片--- */
+
+.Mars-RecCard {
+    width: 600px;
+    height: 265px;
+    background: #eee;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.Mars-Rec-img {
+    height: 100%;
+}
+
+.Mars-Rec-title {
+    font-size: 20px;
+}
+
+.Mars-Rec-content-wr {
+    padding: 20px 30px;
+}
+
+.Mars-Rec-desc {
+    margin: 15px 0;
+}

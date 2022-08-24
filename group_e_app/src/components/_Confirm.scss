@@ -1,0 +1,19 @@
+.pochi-confirm-btn-pri{
+  font-size: 1.25rem;
+  background-color: #616153 !important;
+  border: 1px solid #616153;
+  border-radius: 18px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+  border: none !important;
+  --bs-btn-focus-shadow-rgb: #616153 !important;
+}
+.pochi-confirm-btn-pri:hover{
+    color: #616153;
+    background-color: #f5f5f5;
+    border: 1px solid #616153 !important;
+}
+
+
